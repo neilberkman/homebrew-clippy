@@ -11,7 +11,7 @@ class Clippy < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/neilberkman/clippy/releases/download/v0.2.0/clippy_0.2.0_darwin_amd64.tar.gz"
-    sha256 "47abf7fc1dbac2ac2dd02b23cc5dacf47dd0654fcd197d9ad62cadc38f31e35e"
+    sha256 "7779cd704f79dccdebe29812adbe98b7a115cd367fd0ed1ea7502a88ed011d9e"
 
     def install
       bin.install "clippy"
@@ -19,7 +19,7 @@ class Clippy < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/neilberkman/clippy/releases/download/v0.2.0/clippy_0.2.0_darwin_arm64.tar.gz"
-    sha256 "d4656d331b35856619dfe40abd565217a04d980bd4b1e31c0ea0ca03ed9f4a47"
+    sha256 "44ce49337d6eb7ef5b05a235e86562252e15db6c948cff8220beabbe22eba322"
 
     def install
       bin.install "clippy"
