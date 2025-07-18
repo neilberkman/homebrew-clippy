@@ -5,13 +5,13 @@
 class Clippy < Formula
   desc "Unified clipboard tool for macOS - a superset of pbcopy"
   homepage "https://github.com/neilberkman/clippy"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/neilberkman/clippy/releases/download/v0.8.0/clippy_0.8.0_darwin_amd64.tar.gz"
-    sha256 "66650c4dd15e9867134d503dec2bfa67506a3a1ec7e30c217d63cbd6aeb17d74"
+    url "https://github.com/neilberkman/clippy/releases/download/v0.9.0/clippy_0.9.0_darwin_amd64.tar.gz"
+    sha256 "0de9cceec72915a8f91c965a3bc8671747d137023e028952cb27ad338716fdff"
 
     def install
       bin.install "clippy"
@@ -19,8 +19,8 @@ class Clippy < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/neilberkman/clippy/releases/download/v0.8.0/clippy_0.8.0_darwin_arm64.tar.gz"
-    sha256 "3a8a68e0909d9303aca93dc65f12567a9951e1ad4a4ba126063a6776db41686c"
+    url "https://github.com/neilberkman/clippy/releases/download/v0.9.0/clippy_0.9.0_darwin_arm64.tar.gz"
+    sha256 "2e0ea5feccf4d6285e827f0ecd8052f599abdf3eeae00d750fa831e09b565d01"
 
     def install
       bin.install "clippy"
