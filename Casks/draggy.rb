@@ -1,6 +1,6 @@
 cask "draggy" do
-  version "1.1.0"
-  sha256 "97dbef13b7c3db24c930677b67afd03d21bc2bbc3df8c81f22445b7ee335f929"
+  version "0.10.0"
+  sha256 "95e5cb3b17b873f718fc0249198db6225ea94756bc24d018ac9f22d2be86f7fa"
 
   url "https://github.com/neilberkman/clippy/releases/download/v#{version}/Draggy.app.zip"
   name "Draggy"
