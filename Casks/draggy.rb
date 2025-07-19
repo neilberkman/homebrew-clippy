@@ -1,8 +1,8 @@
 cask "draggy" do
   version "0.10.0"
-  sha256 "95e5cb3b17b873f718fc0249198db6225ea94756bc24d018ac9f22d2be86f7fa"
+  sha256 "66446fa42676e0f7a883fad9ff0f371e4792480463bd898831312396a2233c3e"
 
-  url "https://github.com/neilberkman/clippy/releases/download/v#{version}/Draggy.app.zip"
+  url "https://github.com/neilberkman/clippy/releases/download/draggy-v#{version}/Draggy.app.zip"
   name "Draggy"
   desc "Minimal menu bar app that makes clipboard files draggable"
   homepage "https://github.com/neilberkman/clippy"
