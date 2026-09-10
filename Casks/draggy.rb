@@ -15,10 +15,9 @@ cask "draggy" do
   app "Draggy.app"
 
   # Remove quarantine attribute to bypass Gatekeeper
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Draggy.app"],
-                   sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/Draggy.app"]
   end
 
   zap trash: [
